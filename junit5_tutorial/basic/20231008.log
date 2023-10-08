@@ -1,0 +1,8 @@
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:28) -- [Basic test] created
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.initId(Calculator.java:32) -- Id created: 066fa85c-f9cf-4f2c-843e-1697affd59bb
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.releaseId(Calculator.java:39) -- Id released: 066fa85c-f9cf-4f2c-843e-1697affd59bb
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.close(Calculator.java:77) -- [Basic test] closed
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:28) -- [Basic test] created
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.initId(Calculator.java:32) -- Id created: f2848bfd-186b-4257-9bb1-bb09a1ed7512
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.releaseId(Calculator.java:39) -- Id released: f2848bfd-186b-4257-9bb1-bb09a1ed7512
+2023-10-08 20:29:54 INFO  [main] top.testeru.Calculator.close(Calculator.java:77) -- [Basic test] closed
