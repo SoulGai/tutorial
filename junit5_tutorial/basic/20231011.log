@@ -1,0 +1,10 @@
+2023-10-11 20:02:58 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:28) -- [Basic test] created
+2023-10-11 20:02:58 INFO  [main] top.testeru.Calculator.initId(Calculator.java:33) -- Id created: 56d9b6e3-ae51-4501-9048-2eec0c0d66c7
+2023-10-11 20:02:58 DEBUG [main] top.testeru.basic.Basic_01_Test.sumTest(Basic_01_Test.java:40) -- Testing sum method in [Basic test]
+2023-10-11 20:02:59 INFO  [main] top.testeru.Calculator.releaseId(Calculator.java:40) -- Id released: 56d9b6e3-ae51-4501-9048-2eec0c0d66c7
+2023-10-11 20:02:59 INFO  [main] top.testeru.Calculator.close(Calculator.java:78) -- [Basic test] closed
+2023-10-11 20:02:59 INFO  [main] top.testeru.Calculator.<init>(Calculator.java:28) -- [Basic test] created
+2023-10-11 20:02:59 INFO  [main] top.testeru.Calculator.initId(Calculator.java:33) -- Id created: 6480e7ae-a9c8-4606-ad55-1a9a2d619d83
+2023-10-11 20:02:59 DEBUG [main] top.testeru.basic.Basic_01_Test.concanateTest(Basic_01_Test.java:51) -- Testing sum concatenate in [Basic test] SUT
+2023-10-11 20:02:59 INFO  [main] top.testeru.Calculator.releaseId(Calculator.java:40) -- Id released: 6480e7ae-a9c8-4606-ad55-1a9a2d619d83
+2023-10-11 20:02:59 INFO  [main] top.testeru.Calculator.close(Calculator.java:78) -- [Basic test] closed

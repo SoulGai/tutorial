@@ -27,11 +27,12 @@ public class Calculator implements Closeable {
         this.name = name;
         log.info("{} created", name);
     }
+    //初始化ID 用户登录
     public void initId() {
         id = UUID.randomUUID().toString();
         log.info("Id created: {}", id);
     }
-
+    //ID释放 用户退出
     public void releaseId() {
         if (null == id) {
             throw new IllegalArgumentException(name + " not initilized");
@@ -71,7 +72,7 @@ public class Calculator implements Closeable {
     }
 
 
-
+    //app关闭
     @Override
     public void close(){
         log.info("{} closed", name);
