@@ -1,4 +1,7 @@
-package top.testeru.dataobject;
+package top.testeru.basic.dataobject;
+
+import java.io.Serializable;
+import java.util.Date;
 
 /**
  * @program: mapstruct_tutorial
@@ -8,7 +11,9 @@ package top.testeru.dataobject;
  *          主要是mapper引用，操作数据库实体类
  * @Date: 2023/10/16
  */
-public class UserDO {
+public class UserDO implements Serializable {
+
+    private static final long serialVersionUID = -4975217173612828321L;
 
     /** 用户编号 **/
     private Integer id;
@@ -16,6 +21,17 @@ public class UserDO {
     private String username;
     /** 密码 **/
     private String password;
+
+    /**
+     * 创建时间
+     */
+    private Date createTime;
+
+    /**
+     * 更新时间
+     */
+    private Date modifyTime;
+
 
     public Integer getId() {
         return id;
@@ -41,16 +57,34 @@ public class UserDO {
         this.password = password;
     }
 
+    public Date getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Date createTime) {
+        this.createTime = createTime;
+    }
+
+    public Date getModifyTime() {
+        return modifyTime;
+    }
+
+    public void setModifyTime(Date modifyTime) {
+        this.modifyTime = modifyTime;
+    }
+
     @Override
     public String toString() {
-        final StringBuilder sb = new StringBuilder();
-
+        StringBuilder sb = new StringBuilder();
+        //完全限定名称
         sb.append(getClass().getName());
         sb.append("[");
         sb.append("id=").append(id);
         sb.append(", username='").append(username).append('\'');
         sb.append(", password='").append(password).append('\'');
-        sb.append('}');
+        sb.append(", createTime=").append(createTime);
+        sb.append(", modifyTime=").append(modifyTime);
+        sb.append(']');
         return sb.toString();
     }
 }

@@ -1,4 +1,4 @@
-package top.testeru.fq;
+package top.testeru.reflect.fq;
 
 /**
  * @program: java_tutorial
@@ -10,7 +10,7 @@ public class FullyQualifiedName {
 
     public static void main(String[] args) {
         FullyQualifiedName fullyQualifiedName = new FullyQualifiedName();
-        // top.testeru.fq.FullyQualifiedName
+        // top.testeru.reflect.fq.FullyQualifiedName
         System.out.println(fullyQualifiedName.getName());
     }
 

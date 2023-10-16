@@ -1,6 +1,6 @@
-package top.testeru.bo;
+package top.testeru.basic.bo;
 
-public class UserDetailBO {
+public class UserDetailBO111 {
 
     private Integer userId;
 
@@ -8,7 +8,7 @@ public class UserDetailBO {
         return userId;
     }
 
-    public UserDetailBO setUserId(Integer userId) {
+    public UserDetailBO111 setUserId(Integer userId) {
         this.userId = userId;
         return this;
     }
